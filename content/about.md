@@ -3,8 +3,8 @@ title: About
 type: about
 ---
 
-Marzneshin is a censorship circumvention tool utilizing other
-censorship circumvention tools.
+Marzneshin is a censorship circumvention tool utilizing other censorship
+circumvention tools.
 
 Dashboard enables access to nodes(configurations, status and stats, logs),
 hosts, users, service entities; while providing monitoring and system statistics.
