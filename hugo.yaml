@@ -1,4 +1,3 @@
-# Hugo configuration file
 title: Marzneshin
 
 # import hextra as module
@@ -49,3 +48,24 @@ params:
   editURL:
     enable: true
     base: "https://github.com/marzneshin/docs/edit/main/content"
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  fa:
+    languageName: فارسی
+    weight: 3
+  ru:
+    languageName: Russian
+    weight: 2
+  kmr:
+    languageName: Kurdî Kurmancî
+    weight: 3
+  ckb:
+    languageName: کوردی سورانی
+    weight: 3
+  kur:
+    languageName: Kurdî Soranî
+    weight: 3

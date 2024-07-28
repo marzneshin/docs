@@ -1,8 +1,9 @@
 ---
 title: Getting Started
 type: docs
-prev: docs/what-is-marzneshin
-next: docs/folder/leaf
+prev: docs/overview
+next: installation
+weight: 2
 sidebar:
   open: true
 ---
