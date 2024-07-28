@@ -1,18 +1,16 @@
 ---
-title: Documentation
-next:
+title: Overview
+next: getting-started
 ---
 
-This is a demo of the theme's documentation layout.
+Marzneshin is a censorship circumvention tool utilizing other censorship
+circumvention tools.
 
-## Hello, World!
+Dashboard enables access to nodes(configurations, status and stats, logs),
+hosts, users, service entities; while providing monitoring and system statistics.
 
-```go {filename="main.go"}
-package main
+On the other hand, the backend manages nodes, users, users' subscriptions, etc.
 
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, World!")
-}
-```
+Marzneshin controls the Marznodes connected to it; monitoring/disabling/enabling
+users on marznode instances while marznode manages and interacts with vpn backends
+(such as xray).
