@@ -1,7 +1,7 @@
 ---
-title: Folder
+title: Getting Started
 type: docs
-prev: docs/first-page
+prev: docs/what-is-marzneshin
 next: docs/folder/leaf
 sidebar:
   open: true
