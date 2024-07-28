@@ -26,7 +26,6 @@ Clone the marznode repository and spin up the container.
 ```sh
 $ git clone https://github.com/marzneshin/marznode
 $ cd marznode
-$ docker compose up -d
 ```
 
 ### Configure certificate
@@ -68,24 +67,25 @@ Move the data to xray for marznode:
 cp /var/lib/marznode/data/xray /var/lib/marznode/xray
 ```
 
-```yaml
-services:
-  marznode:
-    image: dawsh/marznode:latest
-    restart: always
-    network_mode: host
+### Set the environment variables
 
-    environment:
-      SERVICE_PORT: "5566"
-      XRAY_EXECUTABLE_PATH: "/var/lib/marznode/xray"
-      XRAY_ASSETS_PATH: "/var/lib/marznoed/data"
-      XRAY_CONFIG_PATH: "/var/lib/marznode/xray_config.json"
-      SSL_CLIENT_CERT_FILE: "/var/lib/marznode/client.pem"
-      SSL_KEY_FILE: "./server.key"
-      SSL_CERT_FILE: "./server.cert"
+Based on the current steps, the `.env` file should follow as
 
-    volumes:
-      - /var/lib/marznode:/var/lib/marznode
+```sh
+XRAY_EXECUTABLE_PATH="/var/lib/marznode/xray"
+XRAY_ASSETS_PATH="/var/lib/marznoed/data"
+XRAY_CONFIG_PATH="/var/lib/marznode/xray_config.json"
+SSL_CLIENT_CERT_FILE="/var/lib/marznode/client.pem"
+SSL_KEY_FILE="./server.key"
+SSL_CERT_FILE="./server.cert"
+```
+
+### Spin up docker compose
+
+Execute the following command inside the marznode folder:
+
+```sh
+docker compose up -f ./compose.yml -d
 ```
 
 {{% /steps %}}
