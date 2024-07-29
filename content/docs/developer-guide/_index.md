@@ -33,6 +33,20 @@ If there is not an open issue for what you want to submit, prefer opening one fo
 can work on any issue that doesn't have an open PR linked to it or a maintainer assigned to it. These show up in the
 sidebar. No need to ask if you can work on an issue that interests you.
 
+{{< callout type="warning" >}}
+
+Your PR name must follow the angular [commit conventions](https://www.conventionalcommits.org) `action(scope): desc`.
+Otherwise your PR will be marked as broken and does not pass CI pipeline.
+
+{{< /callout >}}
+
+#### CI
+
+There are several actions quality checking your code. Make sure you pass all criteria's, especially **Sonar**.
+
 #### Branches
 
 Make sure to create a branch off your master branch, and then submit a PR to our master branch.
+
+The naming convetion for branches is `action/scope` plus the the number of issue if
+there is one related. E.g. `feat/users-filter-admin`, `fix/nodes-settings-tab-123`.
