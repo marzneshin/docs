@@ -3,8 +3,6 @@ title: Contribution Guideline
 weight: 4
 ---
 
-# Contribution Guideline
-
 This series of documents is dedicated to people whom want to understand
 the codebase, architecture, and the contribution guideline.
 
