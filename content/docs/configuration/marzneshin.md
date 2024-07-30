@@ -1,5 +1,6 @@
 ---
 title: Marzneshin
+weight: 1
 ---
 
 > You can set settings below using environment variables or placing them in `.env` file.
