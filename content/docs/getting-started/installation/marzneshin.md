@@ -43,8 +43,7 @@ marzneshin --help
 
 If you are eager to run the project using the source code, check the section below
 
-<details markdown="1">
-<summary><h3>Manual install (advanced)</h3></summary>
+## Manual install (advanced)
 
 Clone this project and install the dependencies (you'd need Python >= 3.10)
 
@@ -159,5 +158,3 @@ server {
 
 By default the app will be run on `http://localhost:8000/dashboard`. You can configure it using changing
 the `UVICORN_HOST` and `UVICORN_PORT` environment variables.
-
-</details>
