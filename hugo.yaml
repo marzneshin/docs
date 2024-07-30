@@ -17,20 +17,25 @@ markup:
 
 menu:
   main:
-    - name: Docs
+    - identifier: documentation
+      name: Docs
       pageRef: /docs
       weight: 1
-    - name: About
+    - identifier: about
+      name: About
       pageRef: /about
       weight: 2
-    - name: Contact ↗
+    - identifier: contact
+      name: Contact ↗
       url: "https://github.com/marzneshin"
       weight: 3
-    - name: Search
+    - identifier: search
+      name: Search
       weight: 4
       params:
         type: search
-    - name: GitHub
+    - identifier: github
+      name: GitHub
       weight: 5
       url: "https://github.com/marzneshin/marzneshin"
       params:
@@ -56,6 +61,8 @@ languages:
     weight: 1
   fa:
     languageName: فارسی
+    languageDirection: rtl
+    title: مرزنشین
     weight: 3
   ru:
     languageName: Russian
