@@ -21,13 +21,13 @@ Also to install the latest nightly release use the `--nightly` option.
 Once the installation is complete:
 
 - You'd notice the logs, which you could stop watching by pressing `Ctrl+C`; The process will continue running normally.
-- the configuration file can be found at `/etc/opt/marzneshin/.env` (refer to [configurations](#configuration) section
+- the configuration file can be found at `/etc/opt/marzneshin/.env` (refer to [configurations](/docs/configuration/marzneshin) page
   to see variables)
 - Data files will be placed at `/var/lib/marzneshin`; e.g. the sqlite database.
 - You can access the Marzneshin dashboard by opening a web browser and navigating
   to `http://<SERVER_IP>:8000/dashboard/`
 
-Next, you need to create a sudo admin for logging into the Marzneshin dashboard by the following command
+Next, you need to create a sudo admin for logging into the Marzneshin dashboard using the following command
 
 ```bash
 marzneshin cli admin create --sudo
@@ -83,9 +83,9 @@ cp .env.example .env
 nano .env
 ```
 
-> Check [marzneshin configuration](docs/configuration/marzneshin) guide for more information
+> Check out [marzneshin configuration](/docs/configuration/marzneshin) guide for more information
 
-Eventually, launch the application using command below
+Eventually, launch the application using the below command
 
 ```bash
 make start
