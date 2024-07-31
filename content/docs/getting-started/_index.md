@@ -1,11 +1,9 @@
 ---
-title: Getting Started
+title: Get Started
 type: docs
 prev: docs/overview
-next: installation
+next: docs/getting-started/basic-install
 weight: 2
 sidebar:
   open: true
 ---
-
-Pages can be organized into folders.

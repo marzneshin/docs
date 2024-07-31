@@ -37,7 +37,7 @@ menu:
     - identifier: github
       name: GitHub
       weight: 5
-      url: "https://github.com/marzneshin/marzneshin"
+      url: "https://github.com/khodedawsh/marzneshin"
       params:
         icon: github
 
@@ -63,16 +63,17 @@ languages:
     languageName: فارسی
     languageDirection: rtl
     title: مرزنشین
-    weight: 3
+    weight: 2
   ru:
     languageName: Russian
-    weight: 2
+    weight: 3
   kmr:
     languageName: Kurdî Kurmancî
-    weight: 3
+    weight: 4
   ckb:
     languageName: کوردی سورانی
-    weight: 3
+    languageDirection: rtl
+    weight: 5
   kur:
     languageName: Kurdî Soranî
-    weight: 3
+    weight: 6

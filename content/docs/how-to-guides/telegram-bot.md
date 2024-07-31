@@ -2,9 +2,7 @@
 title: "Telegram Bot"
 ---
 
-Marzneshin comes with an integrated Telegram bot that can handle server management, user creation and removal, and send
-notifications. This bot can be easily enabled by following a few simple steps, and it provides a convenient way to
-interact with Marzneshin without having to log in to the server every time.
+Marzneshin comes with an integrated Telegram bot that currently provides functionality for reporting events.
 
 To enable Telegram Bot:
 

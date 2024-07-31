@@ -3,7 +3,7 @@ title: Contribution Guideline
 weight: 4
 ---
 
-This series of documents is dedicated to people whom want to understand
+This series of documents is dedicated to people who want to understand
 the codebase, architecture, and the contribution guideline.
 
 ### Reporting issues
@@ -17,7 +17,7 @@ Include the following information in your post:
 
 {{< callout type="warning" >}}
 
-Please don't open issues solely intended to **questions**. Instead, use one of the following ways to ask:
+Please don't open issues solely intended to **ask a question**. Instead, use one of the following ways to ask:
 
 - Ask on our telegram group: [@marzneshins](https://t.me/marzneshins)
 - Ask on our [GitHub Discussions](https://github.com/khodedawsh/marzneshin/discussions) for long term discussion or

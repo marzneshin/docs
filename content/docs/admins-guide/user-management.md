@@ -1,5 +1,4 @@
 ---
-title: Users Management
-next: services-management
+title: User Management
 weight: 1
 ---
