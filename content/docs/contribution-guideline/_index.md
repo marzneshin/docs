@@ -17,11 +17,10 @@ Include the following information in your post:
 
 {{< callout type="warning" >}}
 
-Please don't open issues solely intended to **ask a question**. Instead, use one of the following ways to ask:
+Please refrain from opening issues solely to **ask a question**. Instead, use one of the following methods:
 
-- Ask on our telegram group: [@marzneshins](https://t.me/marzneshins)
-- Ask on our [GitHub Discussions](https://github.com/khodedawsh/marzneshin/discussions) for long term discussion or
-  larger questions.
+- Ask in our Telegram group: [@marzneshins](https://t.me/marzneshins)
+- Use our [GitHub Discussions](https://github.com/khodedawsh/marzneshin/discussions) long-term discussions or more complex questions.
 
 {{< /callout >}}
 
