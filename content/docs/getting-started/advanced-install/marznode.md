@@ -55,7 +55,7 @@ cd marznode
 Execute the following command to get your node up and running
 
 ```shell
-docker compose up -f ./compose.yml -d
+docker compose -f ./compose.yml up -d
 ```
 
 {{% /steps %}}
