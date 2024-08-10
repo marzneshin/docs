@@ -38,7 +38,7 @@ Provide some xray config for your node; you could modify it later in the dashboa
 We setup the sample config from marznode repository in this case: 
 
 ```sh
-curl https://github.com/khodedawsh/marznode/raw/master/xray_config.json > /var/lib/marznode/xray_config.json 
+curl -L https://github.com/khodedawsh/marznode/raw/master/xray_config.json > /var/lib/marznode/xray_config.json
 ```
 
 ### Get Marznode
