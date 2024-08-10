@@ -6,28 +6,32 @@ weight: 1
 To get started, you just need a linux machine.
 
 {{< callout type="info" >}}
-  TLDR for installation:
+TLDR for installation:
 
-  ```bash
-  sudo bash -c "$(curl -sL https://github.com/khodedawsh/Marzneshin/raw/master/script.sh)" @ install
-  ```
-  After that make sure you create an admin:
-  ```bash
-  marzneshin cli admin create --sudo
-  ```
+```bash
+sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install
+```
+
+After that make sure you create an admin:
+
+```bash
+marzneshin cli admin create --sudo
+```
+
 {{< /callout >}}
 
 Marzneshin currently supports the following databases. SQLite is preferred for small setups, while MariaDB is recommended for larger configurations.
 {{< tabs items="mariadb,mysql,sqlite" >}}
 
+{{< tab >}}```bash
+sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mariadb
+
+````{{< /tab >}}
   {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/khodedawsh/Marzneshin/raw/master/script.sh)" @ install --database mariadb
+sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install --database mysql
 ```{{< /tab >}}
   {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/khodedawsh/Marzneshin/raw/master/script.sh)" @ install --database mysql
-```{{< /tab >}}
-  {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/khodedawsh/Marzneshin/raw/master/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/marzneshin/Marzneshin/raw/master/script.sh)" @ install
 ```{{< /tab >}}
 
 {{< /tabs >}}
@@ -48,7 +52,7 @@ Next, you need to create a sudo admin for logging into the Marzneshin dashboard 
 
 ```bash
 marzneshin cli admin create --sudo
-```
+````
 
 That's it! You can login to your dashboard using these credentials
 

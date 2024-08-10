@@ -20,7 +20,7 @@ Include the following information in your post:
 Please refrain from opening issues solely to **ask a question**. Instead, use one of the following methods:
 
 - Ask in our Telegram group: [@marzneshins](https://t.me/marzneshins)
-- Use our [GitHub Discussions](https://github.com/khodedawsh/marzneshin/discussions) long-term discussions or more complex questions.
+- Use our [GitHub Discussions](https://github.com/marzneshin/marzneshin/discussions) long-term discussions or more complex questions.
 
 {{< /callout >}}
 

@@ -2,6 +2,7 @@
 title: Marzneshin
 weight: 1
 ---
+
 If you are eager to run the project using the source code, check the section below
 
 ## Manual install (advanced)
@@ -13,14 +14,13 @@ If you are eager to run the project using the source code, check the section bel
 Clone this project and install the dependencies (you'd need Python >= 3.10)
 
 ```bash
-git clone https://github.com/khodedawsh/Marzneshin
+git clone https://github.com/marzneshin/Marzneshin
 cd Marzneshin/
 wget -qO- https://bootstrap.pypa.io/get-pip.py | python3 -
 python3 -m pip install -r requirements.txt
 ```
 
 Alternatively, to run in an isolated environment you can create a [virtual environment](https://pypi.org/project/virtualenv/)
-
 
 ### Build the dashboard
 
@@ -60,6 +60,7 @@ nano .env
 ### Generate the database
 
 Currently to generate the db, you should run
+
 ```bash
 alembic upgrade head
 ```
@@ -68,10 +69,9 @@ alembic upgrade head
 
 Eventually, launch the application using one of the below commands
 
-
-| Using systemd (recommended)         | Using make (one-time)                              |
-| :---------------------------------- | ------------------------------------- |
-| ```bash tools/service-install.sh```<br>```systemctl enable --now marzneshin``` | ```make start``` |
+| Using systemd (recommended)                                            | Using make (one-time) |
+| :--------------------------------------------------------------------- | --------------------- |
+| `bash tools/service-install.sh`<br>`systemctl enable --now marzneshin` | `make start`          |
 
 By default the app will be run on `http://localhost:8000/dashboard`. You can configure it using changing
 the `UVICORN_HOST` and `UVICORN_PORT` environment variables.
