@@ -37,7 +37,7 @@ menu:
     - identifier: github
       name: GitHub
       weight: 5
-      url: "https://github.com/khodedawsh/marzneshin"
+      url: "https://github.com/marzneshin/marzneshin"
       params:
         icon: github
 

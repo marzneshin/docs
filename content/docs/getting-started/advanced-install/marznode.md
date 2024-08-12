@@ -19,10 +19,10 @@ curl -fsSL https://get.docker.com | sh
 
 {{% steps %}}
 
-
 ### Setup your certificate
 
 Create the necessary directory
+
 ```sh
 mkdir -p /var/lib/marznode/
 ```
@@ -31,14 +31,13 @@ And get your certificate from marzneshin settings, place it here:
 
 `/var/lib/marznode/client.pem`
 
-
 ### Setup some xray config
 
 Provide some xray config for your node; you could modify it later in the dashboard.
-We setup the sample config from marznode repository in this case: 
+We setup the sample config from marznode repository in this case:
 
 ```sh
-curl -L https://github.com/khodedawsh/marznode/raw/master/xray_config.json > /var/lib/marznode/xray_config.json
+curl -L https://github.com/marzneshin/marznode/raw/master/xray_config.json > /var/lib/marznode/xray_config.json
 ```
 
 ### Get Marznode
@@ -46,7 +45,7 @@ curl -L https://github.com/khodedawsh/marznode/raw/master/xray_config.json > /va
 To clone marznode
 
 ```sh
-git clone https://github.com/khodedawsh/marznode
+git clone https://github.com/marzneshin/marznode
 cd marznode
 ```
 
