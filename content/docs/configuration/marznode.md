@@ -10,7 +10,7 @@ weight: 2
 1. Installing Docker and pulling Marznode with this command:
 
 ```bash
-apt-get update -y && apt-get upgrade -y && curl -fsSL https://get.docker.com | sh && git clone https://github.com/khodedawsh/marznode && cd marznode && docker compose up -d
+apt-get update -y && apt-get upgrade -y && curl -fsSL https://get.docker.com | sh && git clone https://github.com/marzneshin/marznode && cd marznode && docker compose up -d
 ```
 
 2. Copy the Marznode certificate from settings in the Marzneshin panel and paste it into this file:
