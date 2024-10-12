@@ -8,17 +8,17 @@ For adding Hysteria 2 in Marznode :
 
 1-making certificate using this commands:
 
-cd /var/lib/marznode/
+```cd /var/lib/marznode/```
 
-openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"
+```openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"```
 
 2-Go back to Marznode default directory :
 
-cd && cd marznode
+```cd && cd marznode```
 
 3-Editing compose.yml File
 
-nano compose.yml
+```nano compose.yml```
 
 4-adding Hysteria Variables in compose.yml :
 
