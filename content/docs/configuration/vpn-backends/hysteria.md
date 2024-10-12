@@ -28,6 +28,8 @@ For adding Hysteria 2 in Marznode :
       HYSTERIA_ENABLED: "True"
 ```
 
+The docker compose should be like this :
+
 ```
 services:
   marznode:
