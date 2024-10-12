@@ -59,3 +59,9 @@ services:
 ```docker compose down --remove-orphans; docker compose up -d```
 
 9-Now Go to Marzneshin Panel and then Go to Node Section Create New node and add Node ip and port 5566 and save it , Done !
+
+note : you have to white list your node ip in master server and master ip in your node also open the port of api and also port's that you need for configuration inside xray_core.json :
+
+```ufw allow 5566```
+
+For more you can changing and moddifyng xraycore settings you can go to node section in Node section marzneshin panel
