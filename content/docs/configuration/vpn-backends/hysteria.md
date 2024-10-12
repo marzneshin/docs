@@ -1,36 +1,48 @@
+
 ---
-title: Hysteria 2
+
+title: Hysteria 2  
 weight: 2
+
 ---
-in this toturail we will make Basic Hysteria 2 core cofiguration's and add it to user subscription service's
 
-For adding Hysteria 2 in Marznode :
+In this tutorial, we will make basic Hysteria 2 core configurations and add it to the user subscription services.
 
-1-making certificate using this commands:
+For adding Hysteria 2 in Marznode:
 
-```cd /var/lib/marznode/```
+1. Make a certificate using these commands:
 
-```openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"```
+```bash
+cd /var/lib/marznode/
+```
 
-2-Go back to Marznode default directory :
+```bash
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -sha256 -days 3650 -nodes -subj "/C=XX/ST=StateName/L=CityName/O=CompanyName/OU=CompanySectionName/CN=CommonNameOrHostname"
+```
 
-```cd && cd marznode```
+2. Go back to the Marznode default directory:
 
-3-Editing compose.yml File
+```bash
+cd && cd marznode
+```
 
-```nano compose.yml```
+3. Edit the `compose.yml` file:
 
-4-adding Hysteria Variables in compose.yml :
+```bash
+nano compose.yml
+```
 
-```   
+4. Add Hysteria variables in `compose.yml`:
+
+```yaml
       HYSTERIA_EXECUTABLE_PATH: "/usr/local/bin/hysteria"
       HYSTERIA_CONFIG_PATH: "./hysteria.yaml"
       HYSTERIA_ENABLED: "True"
 ```
 
-The docker compose should be like this :
+The docker compose should look like this:
 
-```
+```yaml
 services:
   marznode:
     image: dawsh/marznode:latest
@@ -53,12 +65,15 @@ services:
       - /var/lib/marznode:/var/lib/marznode
 ```
 
-Then save the files and restart compose.yml
+Then save the files and restart `compose.yml`:
 
-```docker compose down --remove-orphans; docker compose up -d```
-
-Now Go to Node section in Marzban panel and open the Hysteria section and add this configurations :
+```bash
+docker compose down --remove-orphans; docker compose up -d
 ```
+
+Now, go to the Node section in the Marzban panel, open the Hysteria section, and add these configurations:
+
+```yaml
 listen: :4443
 tls:
     cert: /var/lib/marznode/cert.pem
@@ -73,6 +88,8 @@ masquerade:
         rewriteHost: true
 ```
 
-*keep in mind : in host setting you must on allow insecure (because you make self hosted tls certificate for this hystera2 core ) for more configuration's addone you can visit Hysteria configuration tutorails at : https://v2.hysteria.network/docs/getting-started/Server/
+*Keep in mind: In the host settings, you must allow insecure connections (because you made a self-hosted TLS certificate for this Hysteria 2 core). For more configuration add-ons, you can visit the Hysteria configuration tutorials at: [https://v2.hysteria.network/docs/getting-started/Server/](https://v2.hysteria.network/docs/getting-started/Server/).
 
-and save the core , done For adding this simple hysteria 2 in your user subscription url you need to go to Services section in Marzban Panel and then in the services you want to add just click the inbound you just maked !
+After saving the core, you're done. To add this simple Hysteria 2 setup to your user subscription URL, go to the Services section in the Marzban panel, and then in the services you want to add, just click the inbound you just made!
+
+---
