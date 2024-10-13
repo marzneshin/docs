@@ -34,7 +34,7 @@ mkdir -p /var/lib/marznode/
 ### راه‌اندازی پیکربندی Xray
 
 برای نود خود پیکربندی Xray فراهم کنید؛ شما می‌توانید بعداً در داشبورد آن را ویرایش کنید.
-در این مورد، ما پیکربندی نمونه را از مخزن مارزنود راه‌اندازی می‌کنیم:
+در این مورد، ما پیکربندی نمونه را از مخزن مرزنود راه‌اندازی می‌کنیم:
 
 ```sh
 curl -L https://github.com/marzneshin/marznode/raw/master/xray_config.json > /var/lib/marznode/xray_config.json
@@ -42,7 +42,7 @@ curl -L https://github.com/marzneshin/marznode/raw/master/xray_config.json > /va
 
 ### دریافت مرزنود
 
-برای کلون کردن مارزنود:
+برای کلون کردن مرزنود:
 
 ```sh
 git clone https://github.com/marzneshin/marznode
