@@ -5,7 +5,7 @@ layout: hextra-home
 
 {{< hextra/hero-badge >}}
   <div class="hx-w-2 hx-h-2 hx-rounded-full hx-bg-primary-400"></div>
-  <span>Open-source & Free</span>
+  <span>Free & Open-source</span>
   {{< icon name="arrow-circle-right" attributes="height=14" >}}
 {{< /hextra/hero-badge >}}
 
@@ -17,7 +17,7 @@ layout: hextra-home
 
 <div class="hx-mb-12">
 {{< hextra/hero-subtitle >}}
-  Efficient, secure, and&nbsp;<br class="sm:hx-block hx-hidden" />user-friendly proxy control
+  An efficient, secure and user-friendly &nbsp;<br class="sm:hx-block hx-hidden" /> proxy management tool
 {{< /hextra/hero-subtitle >}}
 </div>
 
