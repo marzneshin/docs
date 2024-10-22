@@ -84,3 +84,10 @@ RECURRENT_NOTIFICATIONS_TIMEOUT=
 NOTIFY_REACHED_USAGE_PERCENT=
 NOTIFY_DAYS_LEFT=
 ```
+## Marzneshin Control variables via shell
+
+| Variable | Description                                                                                 |
+| -------- | ------------------------------------------------------------------------------------------- |
+| marzneshin update     | you can update Marzneshin easily with |
+| marzneshin stop    | you can stop Marzneshin                                                |
+| marzneshin start    | you can start Marzneshin                                               |
