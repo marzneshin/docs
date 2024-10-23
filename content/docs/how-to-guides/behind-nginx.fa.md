@@ -1,5 +1,6 @@
 ---
 title: Running behind nginx
+weight: 1
 ---
 
 To use with nginx

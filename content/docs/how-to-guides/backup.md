@@ -1,5 +1,6 @@
 ---
 title: "Backup"
+weight: 1
 ---
 
 It's always a good idea to backup your Marzneshin files regularly to prevent data loss in case of system failures or

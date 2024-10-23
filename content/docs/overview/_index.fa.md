@@ -1,5 +1,5 @@
 ---
-title: Overview
+title: بررسی کلی
 weight: 1
 next: docs/getting-started/
 ---

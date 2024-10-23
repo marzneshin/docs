@@ -1,6 +1,6 @@
 ---
 
-عنوان: ساختار کد  
+title: ساختار کد  
 next: پشتیبانی  
 prev: docs/developer-guide  
 toc: true  

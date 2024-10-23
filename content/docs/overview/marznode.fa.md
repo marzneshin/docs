@@ -1,5 +1,5 @@
 ---
-title: Marznode
+title: مرزنود
 next: getting-started
 weight: 2
 ---
