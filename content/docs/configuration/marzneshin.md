@@ -17,7 +17,6 @@ weight: 1
 | SQLALCHEMY_DATABASE_URL         | Database URL ([SQLAlchemy's docs](https://docs.sqlalchemy.org/en/20/core/engines.html#database-urls)) |
 | JWT_ACCESS_TOKEN_EXPIRE_MINUTES | Expire time for the Access Tokens in minutes, `0` considered as infinite (default: `1440`)            |
 | AUTH_GENERATION_ALGORITHM       | Authentication password encryption algorithm (default: "xxh128", options: "xxh128", "plain")          |
-| REVERSIBLE_KEY                  | Reversible key support (default: False, options: "False", "True")                                     |
 
 ## Subscription and VPN customization
 
@@ -74,7 +73,6 @@ TELEGRAM_ADMIN_ID=
 TELEGRAM_PROXY_URL=
 JWT_ACCESS_TOKEN_EXPIRE_MINUTES=
 AUTH_GENERATION_ALGORITHM="xxh128"
-REVERSIBLE_KEY="False"
 DOCS=true
 DEBUG=true
 WEBHOOK_ADDRESS="http://localhost:9000"
