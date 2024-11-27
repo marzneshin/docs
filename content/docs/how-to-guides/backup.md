@@ -2,8 +2,7 @@
 title: "Backup"
 ---
 
-It's always a good idea to backup your Marzneshin files regularly to prevent data loss in case of system failures or
-accidental deletion. Here are the steps to backup Marzneshin:
+It's good practice to backup your Marzneshin files regularly to prevent data loss in case of system failures.
 
 1. By default, all Marzneshin important files are saved in `/var/lib/marzneshin` (Docker versions). Copy the
    entire `/var/lib/marzneshin` directory to a backup location of your choice, such as an external hard drive or cloud
