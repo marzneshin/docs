@@ -3,6 +3,7 @@
 
 .content code:not(.code-block code) {
     font-family: 'Hack';
+    direction: ltr;
   }
 .cl {
     font-family: 'Hack';
