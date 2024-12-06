@@ -22,5 +22,9 @@ The following environmental variables are used to utilize and configure Xray on 
 - `XRAY_RESTART_ON_FAILURE` Whether to restart in case of crash/exit. `True`/`False`
 - `XRAY_RESTART_ON_FAILURE_INTERVAL` Interval between restarts in case of crash.
 
+## Current Limitations
+- Xray fallbacks are not parsed from configurations
+- VLESS flow is only configurable for reality + tcp.
+
 ## See also
 - [configuration documents](https://xtls.github.io/config/)
