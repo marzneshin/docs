@@ -1,6 +1,6 @@
 ---
 title: "API"
-weight: 2
+weight: 3
 ---
 
 Marzneshin provides a REST API that enables developers to interact with Marzneshin

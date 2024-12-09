@@ -1,9 +1,7 @@
 ---
 title: Codebase
 next: support
-prev: docs/developer-guide
-toc: true
-weight: 1
+weight: 2
 ---
 
 ## Project Structure
