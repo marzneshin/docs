@@ -12,6 +12,7 @@ Currently supported protocols include:
 - Shadowsocks
 - Hysteria2
 - TUIC
+- ShadowTLS
 
 
 ## Configuration settings on marznode
