@@ -25,6 +25,7 @@ The following environmental variables are used to utilize and configure Xray on 
 ## Current Limitations
 - Xray fallbacks are not parsed from configurations
 - VLESS flow is only configurable for reality + tcp.
+- Xray logging should be configured to write into stdout. starting xray would block marznode otherwise.
 
 ## See also
 - [configuration documents](https://xtls.github.io/config/)
